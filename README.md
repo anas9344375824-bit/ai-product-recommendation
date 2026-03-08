@@ -20,8 +20,9 @@ ai-recommendation-system/
 |   |   |-- index.html
 |   |   |-- styles.css
 |   |   `-- app.js
-|   `-- requirements.txt
 |-- data/
+|-- main.py
+|-- requirements.txt
 `-- README.md
 ```
 
@@ -46,14 +47,14 @@ Windows PowerShell:
 
 ```powershell
 .venv\Scripts\Activate.ps1
-pip install -r app/requirements.txt
+pip install -r requirements.txt
 ```
 
 macOS/Linux:
 
 ```bash
 source .venv/bin/activate
-pip install -r app/requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Generate Dataset
@@ -80,24 +81,24 @@ Columns:
 Windows PowerShell:
 
 ```powershell
-.\.venv\Scripts\python -m uvicorn app.main:app --reload --port 8001
+.\.venv\Scripts\python -m uvicorn main:app --host 0.0.0.0 --port 10000
 ```
 
 macOS/Linux:
 
 ```bash
-python -m uvicorn app.main:app --reload --port 8001
+python -m uvicorn main:app --host 0.0.0.0 --port 10000
 ```
 
 ## UI URL
 
 Open:
 
-`http://127.0.0.1:8001/`
+`http://127.0.0.1:10000/`
 
 Health endpoint:
 
-`http://127.0.0.1:8001/health`
+`http://127.0.0.1:10000/health`
 
 ## API Endpoint
 
@@ -106,7 +107,7 @@ Health endpoint:
 Example:
 
 ```bash
-curl http://127.0.0.1:8001/recommend/1
+curl http://127.0.0.1:10000/recommend/1
 ```
 
 Example JSON response:
