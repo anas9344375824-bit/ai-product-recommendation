@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Product Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-a"></div>
+    <div class="bg-orb orb-b"></div>
+    <div class="grain"></div>
+
+    <main class="shell">
+      <section class="hero reveal">
+        <p class="eyebrow">Collaborative Filtering Engine</p>
+        <h1>Smart Product Picks for Every Shopper</h1>
+        <p class="hero-copy">
+          Enter a user ID to get top 5 recommendations based on similar users'
+          preferences.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <form id="recommend-form" class="form" novalidate>
+          <label for="user-id" class="label">User ID</label>
+          <div class="row">
+            <input
+              id="user-id"
+              name="user_id"
+              class="input"
+              type="number"
+              min="1"
+              step="1"
+              value="1"
+              placeholder="e.g. 1"
+              required
+            />
+            <button id="submit-btn" type="submit" class="btn">
+              Get Recommendations
+            </button>
+          </div>
+          <p id="message" class="message" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="results-head">
+          <h2>Recommended Products</h2>
+          <span id="result-meta" class="meta">Top 5 results</span>
+        </div>
+
+        <div id="cards" class="cards"></div>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
