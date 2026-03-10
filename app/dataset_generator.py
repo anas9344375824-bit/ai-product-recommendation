@@ -6,6 +6,10 @@ The dataset schema is:
 - product_id
 - product_name
 - category
+- brand
+- price
+- features
+- image_url
 - rating
 """
 
@@ -19,21 +23,159 @@ import pandas as pd
 def _build_product_catalog() -> List[dict]:
     """Create a fixed product catalog used for fake interactions."""
     return [
-        {"product_id": 101, "product_name": "Wireless Mouse", "category": "Electronics"},
-        {"product_id": 102, "product_name": "Mechanical Keyboard", "category": "Electronics"},
-        {"product_id": 103, "product_name": "Noise Cancelling Headphones", "category": "Electronics"},
-        {"product_id": 104, "product_name": "USB-C Hub", "category": "Electronics"},
-        {"product_id": 105, "product_name": "Gaming Monitor", "category": "Electronics"},
-        {"product_id": 201, "product_name": "Running Shoes", "category": "Fashion"},
-        {"product_id": 202, "product_name": "Cotton T-Shirt", "category": "Fashion"},
-        {"product_id": 203, "product_name": "Slim Fit Jeans", "category": "Fashion"},
-        {"product_id": 301, "product_name": "Stainless Steel Bottle", "category": "Home"},
-        {"product_id": 302, "product_name": "Desk Lamp", "category": "Home"},
-        {"product_id": 303, "product_name": "Air Purifier", "category": "Home"},
-        {"product_id": 401, "product_name": "Yoga Mat", "category": "Sports"},
-        {"product_id": 402, "product_name": "Dumbbell Set", "category": "Sports"},
-        {"product_id": 501, "product_name": "Mystery Novel", "category": "Books"},
-        {"product_id": 502, "product_name": "Cookbook", "category": "Books"},
+        {
+            "product_id": 101,
+            "product_name": "iPhone 14",
+            "category": "Smartphones",
+            "brand": "Apple",
+            "price": 79999,
+            "features": ["Good Camera", "Long Battery", "Fast Charging"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 102,
+            "product_name": "Samsung Galaxy S23",
+            "category": "Smartphones",
+            "brand": "Samsung",
+            "price": 74999,
+            "features": ["Good Camera", "Gaming Performance", "Fast Charging"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 103,
+            "product_name": "OnePlus 11",
+            "category": "Smartphones",
+            "brand": "OnePlus",
+            "price": 57999,
+            "features": ["Fast Charging", "Gaming Performance", "Long Battery"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 104,
+            "product_name": "Pixel 8",
+            "category": "Smartphones",
+            "brand": "Google",
+            "price": 69999,
+            "features": ["Good Camera", "Long Battery", "Fast Charging"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 105,
+            "product_name": "Xiaomi 13",
+            "category": "Smartphones",
+            "brand": "Xiaomi",
+            "price": 49999,
+            "features": ["Fast Charging", "Gaming Performance"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 106,
+            "product_name": "Samsung Galaxy A54",
+            "category": "Smartphones",
+            "brand": "Samsung",
+            "price": 39999,
+            "features": ["Good Camera", "Long Battery"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 107,
+            "product_name": "Redmi Note 13 Pro",
+            "category": "Smartphones",
+            "brand": "Xiaomi",
+            "price": 27999,
+            "features": ["Good Camera", "Fast Charging"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 108,
+            "product_name": "Realme 12 Pro",
+            "category": "Smartphones",
+            "brand": "Realme",
+            "price": 29999,
+            "features": ["Gaming Performance", "Fast Charging"],
+            "image_url": "/static/images/smartphone.svg",
+        },
+        {
+            "product_id": 201,
+            "product_name": "MacBook Air M2",
+            "category": "Laptops",
+            "brand": "Apple",
+            "price": 89999,
+            "features": ["Long Battery", "Fast Charging"],
+            "image_url": "/static/images/laptop.svg",
+        },
+        {
+            "product_id": 202,
+            "product_name": "Dell XPS 13",
+            "category": "Laptops",
+            "brand": "Dell",
+            "price": 99999,
+            "features": ["Long Battery", "Gaming Performance", "Fast Charging"],
+            "image_url": "/static/images/laptop.svg",
+        },
+        {
+            "product_id": 203,
+            "product_name": "HP Spectre x360",
+            "category": "Laptops",
+            "brand": "HP",
+            "price": 95999,
+            "features": ["Long Battery", "Fast Charging"],
+            "image_url": "/static/images/laptop.svg",
+        },
+        {
+            "product_id": 301,
+            "product_name": "Sony WH-1000XM5",
+            "category": "Headphones",
+            "brand": "Sony",
+            "price": 29999,
+            "features": ["Long Battery", "Fast Charging"],
+            "image_url": "/static/images/headphones.svg",
+        },
+        {
+            "product_id": 302,
+            "product_name": "Bose QuietComfort 45",
+            "category": "Headphones",
+            "brand": "Bose",
+            "price": 26999,
+            "features": ["Long Battery"],
+            "image_url": "/static/images/headphones.svg",
+        },
+        {
+            "product_id": 303,
+            "product_name": "AirPods Max",
+            "category": "Headphones",
+            "brand": "Apple",
+            "price": 49999,
+            "features": ["Long Battery", "Fast Charging"],
+            "image_url": "/static/images/headphones.svg",
+        },
+        {
+            "product_id": 401,
+            "product_name": "Canon EOS R10",
+            "category": "Cameras",
+            "brand": "Canon",
+            "price": 74999,
+            "features": ["Good Camera"],
+            "image_url": "/static/images/camera.svg",
+        },
+        {
+            "product_id": 402,
+            "product_name": "Sony Alpha ZV-E10",
+            "category": "Cameras",
+            "brand": "Sony",
+            "price": 67999,
+            "features": ["Good Camera"],
+            "image_url": "/static/images/camera.svg",
+        },
+        {
+            "product_id": 403,
+            "product_name": "Nikon Z50",
+            "category": "Cameras",
+            "brand": "Nikon",
+            "price": 71999,
+            "features": ["Good Camera"],
+            "image_url": "/static/images/camera.svg",
+        },
     ]
 
 
@@ -66,6 +208,10 @@ def generate_fake_dataset(
                     "product_id": product["product_id"],
                     "product_name": product["product_name"],
                     "category": product["category"],
+                    "brand": product["brand"],
+                    "price": product["price"],
+                    "features": ";".join(product["features"]),
+                    "image_url": product["image_url"],
                     "rating": int(rng.integers(1, 6)),  # Ratings from 1 to 5
                 }
             )

@@ -18,13 +18,33 @@ from sklearn.metrics.pairwise import cosine_similarity
 class ProductRecommender:
     """Recommend products based on collaborative filtering."""
 
-    REQUIRED_COLUMNS = {"user_id", "product_id", "product_name", "category", "rating"}
+    REQUIRED_COLUMNS = {
+        "user_id",
+        "product_id",
+        "product_name",
+        "category",
+        "brand",
+        "price",
+        "features",
+        "image_url",
+        "rating",
+    }
 
     def __init__(self, data_path: Path):
         self.data_path = Path(data_path)
         self.df = self._load_data()
         self.product_lookup = (
-            self.df[["product_id", "product_name", "category"]]
+            self.df[
+                [
+                    "product_id",
+                    "product_name",
+                    "category",
+                    "brand",
+                    "price",
+                    "features",
+                    "image_url",
+                ]
+            ]
             .drop_duplicates(subset=["product_id"])
             .set_index("product_id")
         )
@@ -56,6 +76,25 @@ class ProductRecommender:
             columns=self.user_item_matrix.index,
         )
 
+    def get_catalog(self) -> List[Dict]:
+        """
+        Return the unique product catalog with metadata.
+        """
+        catalog = []
+        for product_id, row in self.product_lookup.sort_index().iterrows():
+            catalog.append(
+                {
+                    "product_id": int(product_id),
+                    "product_name": str(row["product_name"]),
+                    "category": str(row["category"]),
+                    "brand": str(row["brand"]),
+                    "price": int(row["price"]),
+                    "features": self._parse_features(row["features"]),
+                    "image_url": str(row["image_url"]),
+                }
+            )
+        return catalog
+
     def _popular_products(self, exclude_product_ids: set, top_n: int) -> List[Dict]:
         agg = (
             self.df.groupby("product_id")
@@ -74,6 +113,10 @@ class ProductRecommender:
                     "product_id": int(product_id),
                     "product_name": str(product_meta["product_name"]),
                     "category": str(product_meta["category"]),
+                    "brand": str(product_meta["brand"]),
+                    "price": int(product_meta["price"]),
+                    "features": self._parse_features(product_meta["features"]),
+                    "image_url": str(product_meta["image_url"]),
                     "score": round(float(row["avg_rating"]), 4),
                 }
             )
@@ -124,6 +167,10 @@ class ProductRecommender:
                     "product_id": int(product_id),
                     "product_name": str(product_meta["product_name"]),
                     "category": str(product_meta["category"]),
+                    "brand": str(product_meta["brand"]),
+                    "price": int(product_meta["price"]),
+                    "features": self._parse_features(product_meta["features"]),
+                    "image_url": str(product_meta["image_url"]),
                     "score": round(predicted_rating, 4),
                 }
             )
@@ -140,3 +187,9 @@ class ProductRecommender:
             recommendations.extend(self._popular_products(exclude_product_ids=exclude_ids, top_n=needed))
 
         return recommendations[:top_n]
+
+    @staticmethod
+    def _parse_features(raw: object) -> List[str]:
+        if isinstance(raw, str) and raw.strip():
+            return [item.strip() for item in raw.split(";") if item.strip()]
+        return []

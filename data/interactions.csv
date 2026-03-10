@@ -1,153 +1,153 @@
-user_id,product_id,product_name,category,rating
-1,203,Slim Fit Jeans,Fashion,3
-1,202,Cotton T-Shirt,Fashion,5
-1,402,Dumbbell Set,Sports,4
-1,201,Running Shoes,Fashion,4
-1,301,Stainless Steel Bottle,Home,4
-2,103,Noise Cancelling Headphones,Electronics,3
-2,201,Running Shoes,Fashion,5
-2,104,USB-C Hub,Electronics,1
-2,102,Mechanical Keyboard,Electronics,5
-2,203,Slim Fit Jeans,Fashion,5
-2,402,Dumbbell Set,Sports,2
-2,502,Cookbook,Books,4
-2,105,Gaming Monitor,Electronics,1
-2,401,Yoga Mat,Sports,4
-3,303,Air Purifier,Home,5
-3,101,Wireless Mouse,Electronics,4
-3,302,Desk Lamp,Home,2
-3,401,Yoga Mat,Sports,5
-3,301,Stainless Steel Bottle,Home,3
-3,103,Noise Cancelling Headphones,Electronics,2
-3,501,Mystery Novel,Books,5
-3,502,Cookbook,Books,2
-3,105,Gaming Monitor,Electronics,1
-4,201,Running Shoes,Fashion,5
-4,203,Slim Fit Jeans,Fashion,4
-4,105,Gaming Monitor,Electronics,4
-4,301,Stainless Steel Bottle,Home,1
-4,202,Cotton T-Shirt,Fashion,2
-4,401,Yoga Mat,Sports,4
-4,102,Mechanical Keyboard,Electronics,5
-5,301,Stainless Steel Bottle,Home,4
-5,303,Air Purifier,Home,4
-5,105,Gaming Monitor,Electronics,4
-5,501,Mystery Novel,Books,4
-5,502,Cookbook,Books,3
-5,203,Slim Fit Jeans,Fashion,4
-5,104,USB-C Hub,Electronics,2
-6,202,Cotton T-Shirt,Fashion,4
-6,203,Slim Fit Jeans,Fashion,3
-6,101,Wireless Mouse,Electronics,3
-6,104,USB-C Hub,Electronics,1
-6,105,Gaming Monitor,Electronics,3
-6,501,Mystery Novel,Books,4
-6,201,Running Shoes,Fashion,2
-6,102,Mechanical Keyboard,Electronics,4
-6,402,Dumbbell Set,Sports,1
-7,501,Mystery Novel,Books,5
-7,401,Yoga Mat,Sports,2
-7,103,Noise Cancelling Headphones,Electronics,3
-7,402,Dumbbell Set,Sports,4
-7,201,Running Shoes,Fashion,1
-7,302,Desk Lamp,Home,3
-7,104,USB-C Hub,Electronics,3
-8,402,Dumbbell Set,Sports,1
-8,302,Desk Lamp,Home,5
-8,201,Running Shoes,Fashion,3
-8,104,USB-C Hub,Electronics,5
-8,105,Gaming Monitor,Electronics,1
-8,303,Air Purifier,Home,3
-8,103,Noise Cancelling Headphones,Electronics,4
-8,502,Cookbook,Books,3
-8,202,Cotton T-Shirt,Fashion,3
-9,502,Cookbook,Books,2
-9,105,Gaming Monitor,Electronics,1
-9,104,USB-C Hub,Electronics,2
-9,103,Noise Cancelling Headphones,Electronics,5
-9,302,Desk Lamp,Home,2
-10,301,Stainless Steel Bottle,Home,3
-10,501,Mystery Novel,Books,4
-10,104,USB-C Hub,Electronics,2
-10,401,Yoga Mat,Sports,4
-10,502,Cookbook,Books,2
-10,103,Noise Cancelling Headphones,Electronics,5
-10,105,Gaming Monitor,Electronics,3
-10,303,Air Purifier,Home,3
-10,203,Slim Fit Jeans,Fashion,1
-10,402,Dumbbell Set,Sports,3
-11,201,Running Shoes,Fashion,3
-11,301,Stainless Steel Bottle,Home,1
-11,401,Yoga Mat,Sports,2
-11,202,Cotton T-Shirt,Fashion,4
-11,104,USB-C Hub,Electronics,1
-11,302,Desk Lamp,Home,4
-11,502,Cookbook,Books,1
-11,102,Mechanical Keyboard,Electronics,1
-11,105,Gaming Monitor,Electronics,3
-11,101,Wireless Mouse,Electronics,4
-12,201,Running Shoes,Fashion,5
-12,202,Cotton T-Shirt,Fashion,3
-12,103,Noise Cancelling Headphones,Electronics,3
-12,303,Air Purifier,Home,3
-12,401,Yoga Mat,Sports,4
-12,203,Slim Fit Jeans,Fashion,1
-13,202,Cotton T-Shirt,Fashion,3
-13,301,Stainless Steel Bottle,Home,5
-13,201,Running Shoes,Fashion,2
-13,104,USB-C Hub,Electronics,5
-13,502,Cookbook,Books,2
-14,101,Wireless Mouse,Electronics,4
-14,401,Yoga Mat,Sports,4
-14,402,Dumbbell Set,Sports,1
-14,302,Desk Lamp,Home,2
-14,203,Slim Fit Jeans,Fashion,2
-14,105,Gaming Monitor,Electronics,4
-14,104,USB-C Hub,Electronics,4
-14,502,Cookbook,Books,4
-15,103,Noise Cancelling Headphones,Electronics,2
-15,105,Gaming Monitor,Electronics,5
-15,502,Cookbook,Books,4
-15,201,Running Shoes,Fashion,2
-15,401,Yoga Mat,Sports,4
-15,501,Mystery Novel,Books,3
-15,104,USB-C Hub,Electronics,5
-15,101,Wireless Mouse,Electronics,2
-15,302,Desk Lamp,Home,5
-15,303,Air Purifier,Home,5
-16,101,Wireless Mouse,Electronics,5
-16,201,Running Shoes,Fashion,5
-16,202,Cotton T-Shirt,Fashion,2
-16,104,USB-C Hub,Electronics,5
-16,102,Mechanical Keyboard,Electronics,1
-16,502,Cookbook,Books,3
-17,402,Dumbbell Set,Sports,1
-17,201,Running Shoes,Fashion,5
-17,101,Wireless Mouse,Electronics,5
-17,301,Stainless Steel Bottle,Home,2
-17,105,Gaming Monitor,Electronics,1
-17,103,Noise Cancelling Headphones,Electronics,1
-17,502,Cookbook,Books,1
-18,105,Gaming Monitor,Electronics,3
-18,202,Cotton T-Shirt,Fashion,3
-18,402,Dumbbell Set,Sports,1
-18,101,Wireless Mouse,Electronics,5
-18,302,Desk Lamp,Home,1
-18,203,Slim Fit Jeans,Fashion,1
-18,501,Mystery Novel,Books,2
-18,301,Stainless Steel Bottle,Home,2
-18,102,Mechanical Keyboard,Electronics,1
-19,203,Slim Fit Jeans,Fashion,3
-19,401,Yoga Mat,Sports,1
-19,105,Gaming Monitor,Electronics,5
-19,102,Mechanical Keyboard,Electronics,5
-19,502,Cookbook,Books,1
-20,502,Cookbook,Books,5
-20,401,Yoga Mat,Sports,3
-20,201,Running Shoes,Fashion,2
-20,105,Gaming Monitor,Electronics,5
-20,402,Dumbbell Set,Sports,5
-20,101,Wireless Mouse,Electronics,3
-20,203,Slim Fit Jeans,Fashion,1
-20,501,Mystery Novel,Books,3
-20,102,Mechanical Keyboard,Electronics,3
+user_id,product_id,product_name,category,brand,price,features,image_url,rating
+1,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,3
+1,402,Sony Alpha ZV-E10,Cameras,Sony,67999,Good Camera,/static/images/camera.svg,5
+1,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,4
+1,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,4
+1,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,4
+2,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,3
+2,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,5
+2,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,1
+2,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,5
+2,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,5
+2,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,2
+2,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,4
+2,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,1
+2,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,4
+3,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,5
+3,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,4
+3,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,2
+3,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,5
+3,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,3
+3,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,2
+3,302,Bose QuietComfort 45,Headphones,Bose,26999,Long Battery,/static/images/headphones.svg,5
+3,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,2
+3,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,1
+4,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,5
+4,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,4
+4,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,4
+4,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,1
+4,108,Realme 12 Pro,Smartphones,Realme,29999,Gaming Performance;Fast Charging,/static/images/smartphone.svg,2
+4,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,4
+4,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,5
+5,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,4
+5,302,Bose QuietComfort 45,Headphones,Bose,26999,Long Battery,/static/images/headphones.svg,4
+5,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,4
+5,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,4
+5,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,3
+5,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,4
+5,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,2
+6,108,Realme 12 Pro,Smartphones,Realme,29999,Gaming Performance;Fast Charging,/static/images/smartphone.svg,4
+6,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,3
+6,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,3
+6,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,1
+6,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,3
+6,402,Sony Alpha ZV-E10,Cameras,Sony,67999,Good Camera,/static/images/camera.svg,4
+6,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,2
+6,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,4
+6,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,1
+7,402,Sony Alpha ZV-E10,Cameras,Sony,67999,Good Camera,/static/images/camera.svg,5
+7,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,2
+7,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,3
+7,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,4
+7,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,1
+7,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,3
+7,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,3
+8,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,1
+8,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,5
+8,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,3
+8,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,5
+8,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,1
+8,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,3
+8,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,4
+8,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,3
+8,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,3
+9,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,2
+9,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,1
+9,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,2
+9,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,5
+9,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,2
+10,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,3
+10,402,Sony Alpha ZV-E10,Cameras,Sony,67999,Good Camera,/static/images/camera.svg,4
+10,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,2
+10,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,4
+10,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,2
+10,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,5
+10,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,3
+10,302,Bose QuietComfort 45,Headphones,Bose,26999,Long Battery,/static/images/headphones.svg,3
+10,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,1
+10,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,3
+11,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,3
+11,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,1
+11,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,2
+11,108,Realme 12 Pro,Smartphones,Realme,29999,Gaming Performance;Fast Charging,/static/images/smartphone.svg,4
+11,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,1
+11,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,4
+11,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,1
+11,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,1
+11,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,3
+11,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,4
+12,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,5
+12,108,Realme 12 Pro,Smartphones,Realme,29999,Gaming Performance;Fast Charging,/static/images/smartphone.svg,3
+12,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,3
+12,302,Bose QuietComfort 45,Headphones,Bose,26999,Long Battery,/static/images/headphones.svg,3
+12,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,4
+12,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,1
+13,108,Realme 12 Pro,Smartphones,Realme,29999,Gaming Performance;Fast Charging,/static/images/smartphone.svg,3
+13,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,5
+13,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,2
+13,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,5
+13,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,2
+14,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,4
+14,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,4
+14,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,1
+14,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,2
+14,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,2
+14,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,4
+14,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,4
+14,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,4
+15,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,2
+15,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,5
+15,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,4
+15,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,2
+15,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,4
+15,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,3
+15,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,5
+15,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,2
+15,301,Sony WH-1000XM5,Headphones,Sony,29999,Long Battery;Fast Charging,/static/images/headphones.svg,5
+15,302,Bose QuietComfort 45,Headphones,Bose,26999,Long Battery,/static/images/headphones.svg,5
+16,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,5
+16,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,5
+16,402,Sony Alpha ZV-E10,Cameras,Sony,67999,Good Camera,/static/images/camera.svg,2
+16,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,5
+16,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,1
+16,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,3
+17,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,1
+17,107,Redmi Note 13 Pro,Smartphones,Xiaomi,27999,Good Camera;Fast Charging,/static/images/smartphone.svg,5
+17,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,5
+17,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,2
+17,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,1
+17,104,Pixel 8,Smartphones,Google,69999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,1
+17,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,1
+18,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,3
+18,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,3
+18,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,1
+18,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,5
+18,103,OnePlus 11,Smartphones,OnePlus,57999,Fast Charging;Gaming Performance;Long Battery,/static/images/smartphone.svg,1
+18,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,1
+18,402,Sony Alpha ZV-E10,Cameras,Sony,67999,Good Camera,/static/images/camera.svg,2
+18,203,HP Spectre x360,Laptops,HP,95999,Long Battery;Fast Charging,/static/images/laptop.svg,2
+18,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,1
+19,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,3
+19,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,1
+19,105,Xiaomi 13,Smartphones,Xiaomi,49999,Fast Charging;Gaming Performance,/static/images/smartphone.svg,5
+19,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,5
+19,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,1
+20,403,Nikon Z50,Cameras,Nikon,71999,Good Camera,/static/images/camera.svg,5
+20,303,AirPods Max,Headphones,Apple,49999,Long Battery;Fast Charging,/static/images/headphones.svg,3
+20,108,Realme 12 Pro,Smartphones,Realme,29999,Gaming Performance;Fast Charging,/static/images/smartphone.svg,2
+20,106,Samsung Galaxy A54,Smartphones,Samsung,39999,Good Camera;Long Battery,/static/images/smartphone.svg,5
+20,201,MacBook Air M2,Laptops,Apple,89999,Long Battery;Fast Charging,/static/images/laptop.svg,5
+20,101,iPhone 14,Smartphones,Apple,79999,Good Camera;Long Battery;Fast Charging,/static/images/smartphone.svg,3
+20,202,Dell XPS 13,Laptops,Dell,99999,Long Battery;Gaming Performance;Fast Charging,/static/images/laptop.svg,1
+20,401,Canon EOS R10,Cameras,Canon,74999,Good Camera,/static/images/camera.svg,3
+20,102,Samsung Galaxy S23,Smartphones,Samsung,74999,Good Camera;Gaming Performance;Fast Charging,/static/images/smartphone.svg,3
