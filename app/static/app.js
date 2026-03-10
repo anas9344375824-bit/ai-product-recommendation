@@ -1,95 +1,46 @@
-const form = document.getElementById("recommend-form");
-const userInput = document.getElementById("user-id");
-const cards = document.getElementById("cards");
-const message = document.getElementById("message");
-const submitBtn = document.getElementById("submit-btn");
-const resultMeta = document.getElementById("result-meta");
+const budgetInput = document.getElementById("budget");
+const budgetValue = document.getElementById("budget-value");
+const tagButtons = document.querySelectorAll(".tag");
+const chipRemoveButtons = document.querySelectorAll(".chip-remove");
+const recommendBtn = document.getElementById("recommend-btn");
 
-function setMessage(text, isError = false) {
-  message.textContent = text;
-  message.style.color = isError ? "#ffb6a0" : "#ffc566";
+function formatCurrency(value) {
+  return `\u20B9${Number(value).toLocaleString("en-IN")}`;
 }
 
-function clearMessage() {
-  message.textContent = "";
+function updateBudget() {
+  if (!budgetInput || !budgetValue) return;
+  budgetValue.textContent = formatCurrency(budgetInput.value);
 }
 
-function renderLoading() {
-  cards.innerHTML = "";
-  for (let i = 0; i < 3; i += 1) {
-    const sk = document.createElement("div");
-    sk.className = "skeleton";
-    cards.appendChild(sk);
-  }
+if (budgetInput) {
+  budgetInput.addEventListener("input", updateBudget);
+  updateBudget();
 }
 
-function renderEmpty(text) {
-  cards.innerHTML = `<div class="empty">${text}</div>`;
-}
-
-function renderCards(items) {
-  cards.innerHTML = "";
-  if (!items.length) {
-    renderEmpty("No recommendations available for this user.");
-    return;
-  }
-
-  items.forEach((item, index) => {
-    const card = document.createElement("article");
-    card.className = "card";
-    card.style.animationDelay = `${index * 60}ms`;
-
-    const score = Number(item.score).toFixed(4);
-    card.innerHTML = `
-      <div class="card-top">
-        <h3>${item.product_name}</h3>
-        <span class="score">Score: ${score}</span>
-      </div>
-      <div>
-        <span class="chip">${item.category}</span>
-        <span class="chip">Product ID: ${item.product_id}</span>
-      </div>
-    `;
-    cards.appendChild(card);
+tagButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    button.classList.toggle("is-active");
   });
-}
-
-async function fetchRecommendations(userId) {
-  submitBtn.disabled = true;
-  setMessage("Finding recommendations...");
-  renderLoading();
-  resultMeta.textContent = `Top 5 results for user ${userId}`;
-
-  try {
-    const response = await fetch(`/recommend/${userId}`);
-    const payload = await response.json();
-
-    if (!response.ok) {
-      const detail = payload?.detail || "Request failed";
-      throw new Error(detail);
-    }
-
-    clearMessage();
-    renderCards(payload.recommended_products || []);
-  } catch (err) {
-    renderEmpty("Could not load recommendations right now.");
-    setMessage(err.message || "Unexpected error occurred", true);
-  } finally {
-    submitBtn.disabled = false;
-  }
-}
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const userId = Number.parseInt(userInput.value, 10);
-  if (!Number.isInteger(userId) || userId <= 0) {
-    setMessage("Please enter a valid positive user ID.", true);
-    renderEmpty("Enter a valid user ID to get recommendations.");
-    return;
-  }
-
-  fetchRecommendations(userId);
 });
 
-fetchRecommendations(1);
+chipRemoveButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const chip = button.closest(".chip");
+    if (chip) {
+      chip.remove();
+    }
+  });
+});
+
+if (recommendBtn) {
+  recommendBtn.addEventListener("click", () => {
+    recommendBtn.classList.add("is-loading");
+    recommendBtn.disabled = true;
+
+    window.setTimeout(() => {
+      recommendBtn.classList.remove("is-loading");
+      recommendBtn.disabled = false;
+    }, 600);
+  });
+}
